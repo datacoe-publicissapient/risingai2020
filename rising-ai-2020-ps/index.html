@@ -1,0 +1,170 @@
+
+<!doctype html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>Demand Forecasting and Budget Optimization using Python</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://storage.googleapis.com/codelab-elements/codelab-elements.css">
+  <style>
+    .success {
+      color: #1e8e3e;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <google-codelab-analytics gaid="UA-49880327-14"></google-codelab-analytics>
+  <google-codelab codelab-gaid=""
+                  id="rising-ai-2020-ps"
+                  title="Demand Forecasting and Budget Optimization using Python"
+                  environment="web"
+                  feedback-link="-">
+    
+      <google-codelab-step label="Demand Forecasting and Budget Optimization using Python" duration="0">
+        <p class="image-container"><img alt="PublicisSapient" src="img/66236dd269bfe193.png"></p>
+<p><strong>Last Updated:  2020-07-03<br>Rising AI 2020</strong></p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Introduction" duration="2">
+        <h2 is-upgraded>What is demand forecasting?</h2>
+<p><em>Demand forecasting</em> is a science or an art of predicting customer demands. These predictions are analyzed and leveraged to make key business decisions to optimize their supply chain and keep their costs lean.</p>
+<h3 is-upgraded>What are the typical business problems where forecasting plays an important role?</h3>
+<ul>
+<li>Can I optimize my inventory to minimize costs as well as manage demand.</li>
+<li>Can I create custom campaigns and increase my customer base using past behavior</li>
+<li>How can I <strong>optimize</strong> my costs on marketing spend</li>
+</ul>
+<p class="image-container"><img alt="Demand Forecasting" src="img/37531dae9bf70684.png"></p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Techniques and Comparison" duration="10">
+        <h2 is-upgraded>Conventional demand forecasting techniques</h2>
+<ul>
+<li><strong>Survey methods</strong></li>
+</ul>
+<p>One of the most common and direct methods of forecasting demand in the short term. This method encompasses the future purchase plans of consumers and their intentions. Typically, an organization conducts surveys with consumers to determine the demand for their existing products and services and anticipate the future demand accordingly.</p>
+<ul>
+<li><strong>Statistical methods</strong></li>
+</ul>
+<p>These are complex set of methods of demand forecasting used to forecast demand in the long term. In this method, demand is forecasted on the basis of historical data and cross-sectional data.</p>
+<p class="image-container"><img style="width: 500.00px" src="img/1ea65f6ac827a7b1.png"></p>
+<p>Another perspective of looking at forecasting can be also</p>
+<ul>
+<li><strong>Time series forecasting</strong><ul>
+<li>moving average method</li>
+<li>exponential smoothing method</li>
+<li>trend projection methods</li>
+</ul>
+</li>
+<li><strong>Causal methods</strong><ul>
+<li>chain-ratio method</li>
+<li>consumption level method</li>
+<li>end use method</li>
+<li>leading indicator method</li>
+</ul>
+</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Additional Factors for consideration" duration="10">
+        <p>Now that we understand the techniques of forecasting and the client impact, let&#39;s think about some of the other factors that needs to be considered while designing such system</p>
+<h2 is-upgraded>Causal forecasting methods</h2>
+<p>Causal forecasting is the technique that assumes that the variable to be forecast has a cause-effect relationship with one or more other independent variables. Causal techniques usually take into consideration all possible factors that can impact the dependent variable.</p>
+<h2 is-upgraded>What is ARIMA model</h2>
+<h3 is-upgraded>ARIMA</h3>
+<p>The <em>ARIMA</em> model (Auto-Regressive Integrated Moving Average) analyzes the time data to predict the future data points. The biggest advantage of this model is that it can be applied in cases where the data shows evidence of non-stationarity.</p>
+<p>Below is the interpretation of the ARIMA</p>
+<p class="image-container"><img alt="ARIMA" src="img/1801d18c6d623044.svg"></p>
+<h3 is-upgraded>ARIMAX</h3>
+<p>The ARIMAX (Autoregressive Integrated Moving Average with Explanatory Variable)model can be viewed as a multiple regression model with one or more autoregressive (AR) terms and/or one or more moving average (MA) terms. This method is suitable for forecasting when data is stationary/non stationary, and <strong>multivariate with any type of data pattern, i.e., level/trend /seasonality/cyclicity</strong></p>
+<p>Below is the interpretation of the ARIMAX</p>
+<p class="image-container"><img alt="ARIMAX" src="img/a1aab5eca77e39da.png"></p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Use Case" duration="5">
+        <p>Let&#39;s look at how we applied these techniques to solve the business problem for one of our automotive client.</p>
+<p class="image-container"><img alt="Conversion Funnel" src="img/5f34cfc525b9a4c5.png"></p>
+<p>How did we apply our customized model to predict the future demands and then provide better conversion for the automotive client</p>
+<p class="image-container"><img alt="Model" src="img/3b681eaf8a85558b.png"></p>
+<p>With the new custom developed model, we also tracked the increase in the leads that were generated and also capture the <em>increase in sales for the client</em></p>
+<p class="image-container"><img alt="Results" src="img/eab6232ed3458bcb.png"></p>
+<p class="image-container"><img alt="Impact" src="img/42266887d47c2102.png"></p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Demo" duration="15">
+        <p>Clone the code and datasets from our <a href="https://github.com/datacoe-publicissapient/risingai2020" target="_blank">github repo</a></p>
+<pre><code>1. Login in to your colab notebooks.
+2. Import the notebooks (RMSE MAPE Forecasting.ipynb and  Causal_Impact.ipynb from github
+3. The datasets are present in github at https://github.com/datacoe-publicissapient/risingai2020/tree/master/data
+4. Run the notebook as we proceed in the workshop through step by step  instructions.
+5. Finally download the files with files.download(&#39;leads_total_forecast_suggested.csv&#39;), files.download(‘visit_unpaid_forecast_suggested.csv&#39;),
+files.download(‘lfa_unpaid_forecast_suggested.csv&#39;) and save it to disk.
+6. You can plot the columns of csv for actual vs predicted and see the result.
+</code></pre>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Overview of budget optimization and its impact for forecasting" duration="10">
+        <table>
+<tr></tr>
+<tr><td colspan="1" rowspan="1"><p>col 3 is</p>
+</td><td colspan="1" rowspan="1"><p>right-aligned</p>
+</td><td colspan="1" rowspan="1"><p>$1600</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p>col 2 is</p>
+</td><td colspan="1" rowspan="1"><p>centered</p>
+</td><td colspan="1" rowspan="1"><p>$12</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p>zebra stripes</p>
+</td><td colspan="1" rowspan="1"><p>are neat</p>
+</td><td colspan="1" rowspan="1"><p>$1</p>
+</td></tr>
+</table>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Use Case" duration="10">
+        
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Discussion Time !!!" duration="10">
+        <p class="image-container"><img alt="Q&A" src="img/5fdc22e00192efe8.png"></p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="References" duration="1">
+        
+
+      </google-codelab-step>
+    
+  </google-codelab>
+
+  <script src="https://storage.googleapis.com/codelab-elements/native-shim.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/custom-elements.min.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/prettify.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/codelab-elements.js"></script>
+  <script src="//support.google.com/inapp/api.js"></script>
+
+</body>
+</html>
