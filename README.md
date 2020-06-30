@@ -1,5 +1,3 @@
-# Rising AI 2020
-
 # Demand Forecasting and Budget Optimization with Python
 #### Women AI Conference : The Rising 2020
 
