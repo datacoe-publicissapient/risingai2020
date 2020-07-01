@@ -21,7 +21,7 @@
 
 
 #### Presentation
-- github.io/presentaiton.pdf
+- [Click here to view our detailed presentation](https://github.com/datacoe-publicissapient/risingai2020/blob/master/presentation.pdf)
 
 ### References
 * [https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html)
