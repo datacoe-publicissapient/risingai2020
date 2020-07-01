@@ -17,7 +17,7 @@
 
    a. [Forecasting](https://colab.research.google.com/github/datacoe-publicissapient/risingai2020/blob/master/notebooks/RMSE_MAPE_Forecasting.ipynb?authuser=4)
 
-   b. [Causal_Impact](https://colab.research.google.com/github/datacoe-publicissapient/risingai2020/blob/master/notebooks/Causal_Impact.ipynb?authuser=4)
+   b. [Causal Impact](https://colab.research.google.com/github/datacoe-publicissapient/risingai2020/blob/master/notebooks/Causal_Impact.ipynb?authuser=4)
 
 
 #### Presentation
