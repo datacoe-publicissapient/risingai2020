@@ -1,4 +1,4 @@
-# Demand Forecasting and Budget Optimization with Python
+# Demand Forecasting and Budget Optimization using Python
 #### Women AI Conference : The Rising 2020
 
 ### Overview
