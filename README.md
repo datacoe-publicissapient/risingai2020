@@ -15,9 +15,9 @@
 
 #### Notebooks
 
-   a. **RMSE MAPE Forecasting.ipynb** [click here](https://colab.research.google.com/drive/1Tc8D5O2S1rGfB5ccZLTPu6XXKtVeVPSK?authuser=4)
+   a. [Forecasting](https://colab.research.google.com/github/datacoe-publicissapient/risingai2020/blob/master/notebooks/RMSE_MAPE_Forecasting.ipynb?authuser=4)
 
-   b. **Causal_Impact.ipynb** [click here](https://colab.research.google.com/drive/1sJuOoGSpyp7-N-ORKZz-txJJpxN4gCzP?authuser=4)
+   b. [Causal_Impact](https://colab.research.google.com/github/datacoe-publicissapient/risingai2020/blob/master/notebooks/Causal_Impact.ipynb?authuser=4)
 
 
 #### Presentation
