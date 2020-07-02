@@ -28,3 +28,6 @@
 * [https://docs.scipy.org/doc/scipy/reference/tutorial/optimize.html](https://docs.scipy.org/doc/scipy/reference/tutorial/optimize.html)
 * [https://www.elegantjbi.com/blog/what-is-arimax-forecasting-and-how-is-it-used-for-enterprise-analysis.htm](https://www.elegantjbi.com/blog/what-is-arimax-forecasting-and-how-is-it-used-for-enterprise-analysis.htm)
 * [https://otexts.com/fpp2/](https://otexts.com/fpp2/)
+* CausalML: Python Package for Causal Machine Learning : [https://arxiv.org/pdf/2002.11631.pdf](https://arxiv.org/pdf/2002.11631.pdf)
+* [https://blog.exploratory.io/an-introduction-to-causal-impact-analysis-a57bce54078e](https://blog.exploratory.io/an-introduction-to-causal-impact-analysis-a57bce54078e)
+* [https://www.youtube.com/watch?v=GTgZfCltMm8](https://www.youtube.com/watch?v=GTgZfCltMm8)
